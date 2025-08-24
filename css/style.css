@@ -1,0 +1,1343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* height: 10000px; */
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/amin-hasani-uDSMTV06s4U-unsplash.jpg);
+    background-size: cover;
+    color: rgb(21, 21, 70);
+}
+.main-topdiv{
+    width: 100%;
+    height: 40px;
+    border-bottom:  solid 1px black;
+    padding: 8px 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 3;
+    background-color: white;
+    color: rgb(21, 21, 70);
+}
+.main-topdiv-ul1 li{
+    display: inline;
+    margin-left: 30px;
+    float: left;
+    text-transform: capitalize;
+    position: relative;
+}
+.main-topdiv-ul2 li{
+    display: inline;
+    margin-right: 20px;
+    float: right;
+    text-transform: capitalize;
+    position: relative;
+}
+.main-topdiv a{
+    text-decoration: none;
+    color: rgb(38, 38, 97);
+}
+.main-topdiv-vd{
+    width: 1.6px;
+    height: 0.5px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.3s;
+    visibility: hidden;
+    position: absolute;
+}
+.mtdvd1{
+    float: left;
+    margin-right: 4px;
+    top: 0;
+    left: -5px;
+}
+.mtdvd2{
+    float: right;
+    bottom: 0;
+    right: -5px;
+}
+.main-topdiv i{
+    line-height: 20px;
+    transition: 0.4s;
+}
+.main-topdiv li:hover .main-topdiv-vd{
+    height: 20px;
+    visibility: visible;
+}
+.main-topdiv-ul2 li i{
+    color: rgb(110, 110, 110);
+}
+.main-topdiv-ul2 li:hover i{
+    transform: rotateY(180deg);
+    color:rgb(21, 21, 70);
+}
+.main-logodiv{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(31, 31, 77);
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.main-logodiv-logo{
+    width: 140px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.main-logodiv-ul1 li{
+    display: inline;
+    float: left;
+    text-transform: capitalize;
+    margin-left: 30px;
+    font-size: large;
+    display: flex;
+    position: relative;
+}
+.main-logodiv-ul2 li{
+    display: inline;
+    float: right;
+    margin-left: 30px;
+    font-size: 20px;
+}
+.main-logodiv-ul1 a{
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+.main-logodiv-ul1{
+    order: 2;
+}
+.main-logodiv-circle{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    color: white;
+    z-index: -1;
+    top: -13px;
+    left: 5px;
+    font-size: medium;
+}
+.mld-li{
+    position: relative;
+    z-index: 1;
+}
+.mldd11{
+    width: 1.6px;
+    height: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -8px;
+    top: -8px;
+}
+.mldd12{
+    width: 1.6px;
+    height: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    right: -8px;
+    top: -8px;
+}
+.mldd13{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd14{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+
+
+
+.mldd23{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd24{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+.mldd33{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd34{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+
+.mldd43{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd44{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+.mldd53{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd54{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+.mldd63{
+    height: 1.6px;
+    width: 0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    top: -8px;
+}
+.mldd64{
+    height: 1.6px;
+    width:0px;
+    background-color: rgb(211, 137, 0);
+    transition: 0.2s;
+    visibility: hidden;
+    position: absolute;
+    left: -7px;
+    bottom: -8px;
+}
+.main-logodiv-ul1 li:hover .mldd11 {
+    height: 37px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd12 {
+    height: 37px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd13 {
+    width: 59px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover  .mldd14{
+    width: 59px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd23 {
+    width: 45px;
+    visibility: visible;
+}.main-logodiv-ul1 li:hover .mldd24 {
+    width: 45px;
+    visibility: visible;
+}.main-logodiv-ul1 li:hover .mldd33 {
+    width: 72px;
+    visibility: visible;
+}.main-logodiv-ul1 li:hover .mldd34 {
+    width: 72px;
+    visibility: visible;
+}.main-logodiv-ul1 li:hover .mldd43 {
+    width: 127px;
+    visibility: visible;
+}.main-logodiv-ul1 li:hover .mldd44 {
+    width: 127px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd53 {
+    width: 74px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd54 {
+    width: 74px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd63 {
+    width: 74px;
+    visibility: visible;
+}
+.main-logodiv-ul1 li:hover .mldd64 {
+    width: 74px;
+    visibility: visible;
+}
+.main-logodiv-ul1 i{
+    font-size: 15px;
+}
+.main-logodiv li:hover a{
+    color: white;
+}
+.mld-li:hover .main-logodiv-circle{
+    z-index: 2;
+    margin-top: -3px;
+    transition: 0.3s;
+}
+.main-logodiv-dropdown{
+    width: 320px;
+    height: 230px;
+    border: solid 2px rgb(181, 181, 181);
+    position: absolute;
+    border-radius: 10px;
+    top: 31px;
+    left: -100px;
+    background-color: white;
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 10;
+}
+.m-dropdown-li-pages{
+    position: relative;
+}
+#m-dropdown-ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px; 
+    position: absolute;
+}
+#m-dropdown-ul li{
+    margin-top: 15px;
+    color: gray;
+}
+#m-dropdown-ul .mlddhr{
+    border-bottom: dotted 2px rgb(137, 137, 137);
+    height: 35px;
+    width: 45px;
+    color: black;
+}
+#m-dropdown-ul2 {
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 4;
+    top: 0px;
+    right: 20px;
+    padding: 5px 10px;
+
+}
+#m-dropdown-ul2 li{
+    margin-top: 15px;
+    color: gray;
+}
+#m-dropdown-ul2 .mlddhr2{
+    border-bottom: dotted 2px rgb(137, 137, 137);
+    height: 35px;
+    width: 36px;
+    color: black;
+}
+#m-dropdown-ul  li:hover{
+    color: rgb(239, 168, 38);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+#m-dropdown-ul2  li:hover{
+    color: rgb(239, 168, 38);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.main-logodiv-ul2 li a{
+    color: rgb(190, 190, 190);
+}
+#m-dropdown-ul2 .mlddhr2:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1);
+}
+#m-dropdown-ul .mlddhr:hover{
+    color: rgb(0, 0, 0);
+    transform: scale(1);
+}
+.m-dropdown-li-pages:hover .main-logodiv-dropdown{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    transition: 0.7s;
+}
+.main-sale{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    line-height: 37px;
+    text-transform: capitalize;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+}
+.main-sale a{
+    text-decoration: none;
+    color: rgb(211, 137, 0);
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.main-sale-ul{
+    position: absolute;
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(211, 137, 0);
+    left: 969px;
+    top: 30px;
+    transition: 0.3s;
+}
+.main-sale a:hover{
+    letter-spacing: 2;  
+    margin-left: 15px;  
+}
+.main-sale a:hover .main-sale-ul{
+    width: 90px;
+    margin-left: -5px;
+}
+.main-body{
+    width: 40%;
+    height: 40%;
+    color: white;
+    margin-top: 170px;
+    text-align: center;
+    padding: 20px;
+    margin-left:40px
+}
+.main-body-h21{
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+    color: rgb(211, 137, 0);
+}
+.main-body-h22{
+    margin-top: 10px;
+}
+.main-body-p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: rgb(172, 172, 172);
+    letter-spacing: 1.5;
+    width: 90%;
+}
+.main-body-button{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(211, 137, 0);
+    color: white;
+    border: none;
+    font-size: larger;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.main-body-button:hover{
+    background-color: white;
+    color: black;
+    border: solid 1.5px black;
+}
+.main-logodiv-logodiv{
+    width: 180px;
+    height: 60px;
+    background-color: white;
+    border-radius: 30px;
+    order: 1;
+    padding-left: 3px;
+}
+.main-logodiv-ul2{
+    order: 3;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////// */
+
+
+
+.s1-container{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 0;
+    left: -9px;
+}
+.s1-content{
+    width: 27%;
+    height: 75%;
+    background: -webkit-linear-gradient(bottom,rgb(0, 0, 0),rgba(0,4,0,0),rgba(0,2,0,0));
+    margin: 0 0 0 20px;
+    position: relative;
+    color:rgb(255, 255, 255);
+}
+.s1-content img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.s1-content1-h2{
+    text-align: center;
+    margin-top: 75%;
+    transition: 0.4s;
+}
+.s1-content a{
+    color: rgb(211, 137, 0);
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    margin:30px 0 0 170px;
+    z-index: 5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.s1-whitediv{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+}
+.s1-whitediv1{
+    width: 100%;
+    height: 40px;
+    top: 1120px;
+}
+.s1-a-ul{
+    width: 80px;
+    height: 1.5px;
+    background-color: rgb(211, 137, 0);
+    
+    margin-top: 5px;
+    transition: 0.3s;
+}
+.s1-content a:hover .s1-a-ul{
+    width: 93px;
+}
+.s1-content1 a:hover{
+    letter-spacing: 2;  
+    margin-left: 165px;
+}
+.s1-content:hover .s1-content1-h2{
+    margin-top: 250px;
+}
+.s1-content a:hover{
+    letter-spacing: 2;  
+    margin-left: 165px;
+}
+.s1-content:hover .s1-img1{
+    transform: scale(1.08);
+}
+.s1-img1{
+    transition: 0.4s;
+}
+.s1-whitediv2{
+    width: 100px;
+    height: 400px;
+    margin: -460px 0 0 25px;
+}
+.s1-whitediv3{
+    width: 20px;
+    height: 400px;
+    margin: -460px 0 0 536px;
+}
+.s1-whitediv4{
+    width: 20px;
+    height: 400px;
+    margin: -460px 0 0 967px;
+}
+.s1-whitediv5{
+    width: 100px;
+    height: 400px;
+    margin: -460px 0 0 1398px;
+}
+.s1-whitediv6{
+    width: 100%;
+    height: 40px;
+    top: 716px;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+.s2{
+    margin-top: 40px;
+}
+.s2-h2{
+    float: left;
+    width: 400px;
+    margin-left: 127px;
+    text-transform: capitalize;
+    font-size: 31px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(38, 38, 97);
+}
+.s2-ul{
+    float: right;
+    margin-right: 123px;
+
+}
+.s2-ul li{
+    display: inline;
+    margin-left: 20px;
+
+}
+.s2-ul li a{
+    color: rgb(38, 38, 97);
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.s2-li-men-a-ul{
+    width: 45px;
+    height: 4px;
+    background-color: rgb(211, 137, 0);
+    position: absolute;
+    margin:25px 0 0 19px;
+}
+.s2-ul li .s2-li-men-a{
+    color: rgb(211, 137, 0);
+}
+.s2-underline{
+    width: 1277px;
+    height: 1px;
+    background-color: rgb(38, 38, 97);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 3px;
+    top: 1279.7px;
+}
+.s2-container{
+    width: 84%;
+    height: 450px;
+    margin: 100px 0 0 124px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.s2-content{
+    width: 23.5%;
+    height: 100%;
+    position: relative;
+}
+.s2-bcimg{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    position: absolute;
+}
+.s2-bcimg1{
+    background-image: url(../images/Audemars\ Piguet\ Royal\ Oak\ Skeleton.jpg);
+}
+.s2-bcimg2{
+    background-image: url(../images/download\ \(6\).jpg);
+}
+.s2-bcimg3{
+    background-image: url(../images/download\ \(3\).jpg);
+}
+.s2-bcimg4{
+    background-image: url(../images/Rolex\ oyster\ perpetual\ datejust.jpg);
+}
+.s2-card{
+    transform: matrix3d(0,0,1.00,0.002,0.00,1,0.00,0,-1,0,0,0,0,0,0,1);
+    transition: 0.2s;
+    visibility: hidden;
+    height: 350px;
+}
+.s2-card img{
+    width: 100%;
+    height: 100%;
+}
+.s2-content:hover .s2-card{
+    transform: matrix3d(1,0,0.00,0,0.00,1,0.00,0,0,0,1,0,0,0,0,1);
+    visibility: visible;
+    transition: 0.7s;
+}
+.s2-iconsdiv{
+    position: absolute;
+    display: flex;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    opacity: 0;
+    transition: 0.3s;
+}
+.s2-content:hover .s2-iconsdiv{
+    top: 270px;
+}
+.s2-icons{
+    width: 60px;
+    height: 50px;
+    background-color: white;
+}
+.s2-icons a i{
+    font-size: 30px;
+    margin-left: 12px;
+    color: rgb(38, 38, 97);
+    line-height: 50px;
+}
+.s2-icons:hover i{
+    color:white;
+}
+.s2-icons:hover{
+    background-color: red;
+}
+.s2-content:hover .s2-iconsdiv{
+    opacity: 1;
+}
+.s2-content-a{
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(38, 38, 97);
+    text-transform: capitalize;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+.s2-content p{
+    color: rgb(113, 113, 113);
+    text-align: center;
+    word-spacing: 15px;
+    margin-top: 20px;
+    font-size: larger
+}
+.s2-content p del{
+    color: black;
+} 
+.s2-content:hover p{
+    color: black;
+}
+.s2-content:hover p del{
+    color: rgb(113, 113, 113);
+}
+.s2-content:hover .s2-content-a{
+    color: rgb(211, 137, 0);
+}
+.s2-arrow{
+    position: absolute;
+    top: 1490px;
+    cursor: pointer;
+}
+.s2-arrow i{
+    font-size: 30px;
+    color: gray;
+    cursor: pointer;
+}
+.s2-arrow i:hover{
+    color: rgb(38, 38, 97);
+}
+.s2-rarrow{
+    right: 80px;
+}
+.s2-larrow{
+    left: 85px;
+}
+
+
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+
+
+
+.s3{
+    background-color: rgba(135, 169, 228, 0.179);
+    width: 100%;
+    height: 50vh;
+    margin-top: 650px;
+    text-align: center;
+    position: relative;
+    padding: 30px 100px;
+    position: absolute;
+    z-index: 10;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0,0.3);
+}
+.s3-ul1{
+    width: 100%;
+    height: 1.5px;
+    background-color: rgb(167, 167, 167);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.s3-ul2{
+    width: 100%;
+    height: 1.5px;
+    background-color: rgb(167, 167, 167);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.s3-h2{
+    font-size: 31px;
+    color: rgb(38, 38, 97);
+    text-transform: capitalize;
+    word-spacing: 8px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.s3-p{
+    
+    color: rgb(135, 135, 135);
+    font-size: 25px;
+    width: 700px;
+    margin: 30px auto;
+    line-height: 35px;
+}
+.s3-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-image: url(../images/Portrait\ of\ a\ confident\ young\ smart\ looking\ man\ _\ Premium\ AI-generated\ image.jpg);
+    background-size: cover;
+    
+}
+.s3-profile{
+    display: flex;
+    margin: 0 0 0 540px;
+}
+.s3-profile-content{
+    margin-left: 20px;
+    padding: 10px;
+}
+.s3-profile-name{
+    color: rgb(38, 38, 97);
+    margin-bottom: 7px;
+}
+.s3-profile-job{
+    color: rgb(135, 135, 135);
+    font-size: 16px;
+}
+.s3-arrow{
+    position: absolute;
+    top:160px;
+    font-size: 30px;
+    color: rgb(135, 135, 135);
+    cursor: pointer;
+}
+.s3-arrow:hover{
+    color: rgb(38, 38, 97);
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+.s4-h2{
+    top: 2290px;
+    color: rgb(38, 38, 97);
+    position: absolute;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    text-transform: capitalize;
+    font-size: 31px;
+    
+    z-index: 2;
+}
+.s4-container{
+    width: 84%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 0;
+    top: 2390px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.s4-content{
+    width: 24.25%;
+    height: 100%;
+    position: relative;
+}
+.s4-content img{
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+.s4-img{
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 0;
+    transform: translateY(-100%);
+    transition: 1s;
+    opacity: 0;
+}
+.s4-img1{
+    background-image: url(../images/Omega\ Moonwatch\ Apollo\ 11\ 50th\ Anniversary\ \ 31020425001001\ New\ for\ $14\,450\ for\ sale\ from\ a\ Trusted\ Seller\ on\ Chrono24.jpg);
+}
+.s4-img2{
+    background-image: url(../images/Cartier\ Tank\ Solo\ for\ $2\,452\ for\ sale\ from\ a\ Trusted\ Seller\ on\ Chrono24.jpg);
+}
+.s4-img3{
+    background-image: url(../images/Cartier\ Santos\ De\ Cartier\ Blue\ Dial\ 2024\ for\ £6\,742\ for\ sale\ from\ a\ Trusted\ Seller\ on\ Chrono24.jpg);
+}
+.s4-img4{
+    background-image: url(../images/Into\ the\ blue_..🌊\ Patek\ Philippe\ 5711A);
+}
+.s4-content:hover .s4-img{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.s4-overlay{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 421px;
+    position: absolute;
+    z-index: 1;
+    top: 1969px;
+}
+.s4-content a{
+    text-decoration: none;
+    color: rgb(38, 38, 97);
+    margin-left: 77px;
+    font-size: larger;
+    top: 365px;
+    position: absolute;
+}
+.s4-content:hover a{
+    color: rgb(211, 137, 0);
+}
+.s4-content p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: larger;
+    word-spacing: 15px;
+    color: rgb(113, 113, 113);
+}
+.s4-content p del{
+    color: black;
+
+}
+.s4-content:hover p{
+    color: black;
+}
+.s4-content:hover p del{
+    color: rgb(113, 113, 113);
+}
+.s4-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    opacity: 0;
+}
+.s4-icons i{
+    font-size: 30px;
+    color: rgb(38, 38, 97);
+}
+.s4-icons div{
+    width: 60px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+}
+.s4-icons div a{
+    font-size: 30px;
+    margin: -354px 0 0 -18px;
+}
+.s4-content:hover .s4-icons{
+    top: 270px;
+    opacity: 1;
+}
+.s4-icons div:hover{
+    background-color: red;
+}
+.s4-icons div:hover i{
+    color: white;
+}
+.s4-arrow{
+    position: absolute;
+    top:2570px;
+    font-size: 30px;
+    color: rgb(135, 135, 135);
+    cursor: pointer;
+}
+.s4-arrow:hover{
+    color: rgb(38, 38, 97);
+}
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+.s5{
+    background-color: rgba(135, 169, 228, 0.179);
+    overflow: hidden;
+    margin-top: 1750px;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0,0.3);
+}
+.s5-h2{
+    text-align: center;
+    margin-top: 50px;
+    text-transform: capitalize;
+    font-size: 34px;
+}
+.s5-container{
+    width: 85%;
+    margin:50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.s5-content{
+    width: 31%;
+    height: 600px;
+}
+.s5-content img{
+    width: 100%;
+    height: 400px;
+    transition: 0.4s;
+}
+.s5-content img:hover{
+    transform: scale(1.05);
+}
+.s5-p1{
+    margin-top: 20px;
+    color:rgb(135, 135, 135);
+    margin-bottom: 20px;
+}
+.s5-a1{
+    text-transform: capitalize;
+    color: rgb(38, 38, 97);
+    text-decoration: none;
+    font-size: 24px;
+}
+.s5-p2{
+    margin-top: 20px;
+    color:rgb(135, 135, 135);
+    margin-bottom: 20px;
+}
+.s5-a2{
+    text-transform: capitalize;
+    color: rgb(38, 38, 97);
+    font-size: 24px;
+    transition: 0.4s;
+}
+.s5-content:hover .s5-a1{
+    color: rgba(230, 150, 0, 0.763);
+}
+.s5-a2:hover{
+    font-size: 27px;
+}
+
+
+
+
+
+/* //////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+.s6-container{
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.s6-content{
+    text-align: center;
+    width: 24%;
+    height: 200px;
+}
+.s6-icons{
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 130px;
+}
+.s6-icons i{
+    font-size: 60px;
+    color: rgb(38, 38, 97);
+    margin-top: 10px;
+    transition: 0.15s;
+}
+.s6-icons .s6i1{
+    color: rgb(112, 112, 112);
+}
+.s6-content:hover i{
+    transform: translateY(-70px);
+} 
+.s6-white1{
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255);
+}
+.s6-white2{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 65px;
+    overflow: hidden;
+}
+.s6-h2{
+    margin-top: 20px;
+}
+.s6-p{
+    margin-top: 10px;
+    color: rgb(112, 112, 112);
+}
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+
+
+
+
+.f{
+    background-color: rgb(21, 21, 70);
+    color: white;
+    overflow: hidden;
+    margin-top: 140px;
+}
+.f-container{
+    width: 85%;
+    height: 500px;
+    margin: auto;
+}
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.f-h2{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+.f-top-h2 p{
+    margin-top: 20px;
+    color: rgb(190, 190, 190);
+}
+.f-top input{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    padding: 0 20px;
+}
+.f-top button{
+    background-color: rgb(211, 137, 0);
+    height: 50px;
+    width: 150px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 5px;
+    text-transform: capitalize;
+    font-size: 22px;
+    transition: 0.3s;
+}
+.f-top button:hover{
+    transform: scale(1.1);
+}
+.f-icons{
+    margin-top: 15px;
+}
+.f-icons i{
+    font-size: 24px;
+    color: rgb(190, 190, 190);
+    transition: 0.3s;
+    margin-right: 5px;
+}
+.f-icons i:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.f-underline1{
+    width: 100%;
+    height: 0.5px;
+    background-color: rgb(167, 167, 167);
+    margin-top: 15px;
+}
+.f-mid-h21{
+    font-size: 50px;
+    font-family: 'Monoton', cursive;
+    color: rgb(255, 255, 255);
+}
+.f-mid{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.f-mid ul{
+    line-height: 4ch;
+    list-style: none;
+    text-transform: capitalize;
+    color: rgb(190, 190, 190);
+    font-size: 17px;
+}
+.f-li-leader{
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.f-mid .f-ul4{
+    line-height: 3.75ch;
+}
+.f-mid ul a{
+    color: rgb(190, 190, 190);
+    text-decoration: none;
+}
+.f-mid ul li:hover a{
+    text-decoration: underline;
+}
+.f-mid ul .f-li-leader-a{
+    color: white;
+    cursor: default;
+}
+.f-mid ul li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.f-mid ul .f-li-leader:hover{
+    transform: scale(1);
+}
+.f-mid ul .f-li-leader:hover .f-li-leader-a{
+    text-decoration: none;
+}
+.f-mid-h21{
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+    cursor: default;
+}
+.ful2{
+    margin-top: -10px;
+}
+.f-bottom-p{
+    color: rgb(190, 190, 190);
+    text-align: center;
+    margin-top: 28px;
+}
+.fbi{
+    color: red;
+    font-size: 18px;
+    animation-name: fbi;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+@keyframes fbi {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.2;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.9);
+        opacity: 0.2;
+    }
+}
+.f-bottom-span{
+    transition: 0.4s;
+    font-weight: bold
+}
+.f-bottom-span a{
+    color: rgb(211, 137, 0);
+    text-decoration: none;
+}
+.f-bottom-span:hover a{
+    text-decoration: underline;
+}
+.f-bottom-span:hover{
+    letter-spacing: 2px;
+}
