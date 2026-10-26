@@ -15,7 +15,7 @@ A static landing page for a watch store, built with HTML5 and CSS3.
 HTML5, CSS3, Font Awesome, Google Fonts
 
 ## Live Demo
-https://abdelazizessam2277.github.io/orient/
+[https://abdelazizessam2277.github.io/orient/](https://abdelazizessam2277.github.io/Orient/)
 
 ## How to Run
 1. Download or clone this repository.
